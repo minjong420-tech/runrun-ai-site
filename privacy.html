@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>개인정보처리방침 · RunRun AI Command Center</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body { max-width: 680px; margin: 48px auto; padding: 0 20px; font-family: system-ui, -apple-system, "Segoe UI", "Malgun Gothic", sans-serif; line-height: 1.7; }
+    h1 { font-size: 1.5rem; }
+    h2 { font-size: 1.1rem; margin-top: 1.8rem; }
+    a { color: #2563eb; }
+    footer { margin-top: 40px; font-size: .9rem; color: #777; }
+  </style>
+</head>
+<body>
+  <h1>RunRun AI Command Center 개인정보처리방침</h1>
+  <p>시행일: 2026-10-18</p>
+
+  <h2>1. 이 앱의 성격</h2>
+  <p>RunRun AI Command Center(이하 "앱")는 소유자 한 사람이 자신의 메모와 업무를 정리하기 위해 운영하는 개인 자동화 도구입니다. 공개 서비스가 아니며, 소유자 본인의 Google 계정 외에는 어떤 사용자의 데이터도 수집하거나 처리하지 않습니다.</p>
+
+  <h2>2. 접근하는 Google 사용자 데이터</h2>
+  <p>앱은 Google Drive API 를 통해 소유자 본인의 Google Drive 에 있는 지정 폴더(노트 저장소)의 파일 목록과 내용을 읽고, 그 폴더 안의 AI 전용 하위 폴더에 새 문서 파일을 만듭니다. 소유자가 직접 작성한 파일은 수정하거나 삭제하지 않습니다. 지정 폴더 밖의 파일에는 접근하지 않습니다.</p>
+
+  <h2>3. 이용 목적</h2>
+  <p>읽어 들인 노트 내용은 소유자의 질문에 답하거나 요약·분석 초안을 만드는 데만 사용합니다. 광고, 프로파일링, 판매, 다른 서비스 개선 등 다른 목적으로는 사용하지 않습니다.</p>
+
+  <h2>4. 데이터의 전송과 공유</h2>
+  <p>분석을 위해 노트 내용의 일부가 Anthropic 의 Claude API 로 전송될 수 있으며, 처리 결과 요약은 소유자 전용 비공개 Discord 서버에 게시됩니다. 이 두 서비스 제공자 외의 제3자에게 데이터를 제공하거나 판매하지 않습니다. 사람이 데이터를 열람하는 경우는 소유자 본인뿐입니다.</p>
+
+  <h2>5. 보관과 보안</h2>
+  <p>Google 인증 토큰은 Cloudflare Workers 의 암호화된 시크릿 저장소에만 보관하며 소스 코드나 문서에 기록하지 않습니다. Google Drive 파일 내용은 작업 처리 중에만 일시적으로 사용하고 별도로 복제 보관하지 않습니다. 작업 기록에는 파일 식별자와 처리 상태만 남깁니다.</p>
+
+  <h2>6. 접근 권한의 철회</h2>
+  <p>소유자는 언제든 Google 계정의 "보안 &gt; 서드파티 앱 및 서비스" 에서 이 앱의 접근 권한을 취소할 수 있습니다. 취소하면 앱은 즉시 Google Drive 에 접근할 수 없게 됩니다.</p>
+
+  <h2>7. Google API 서비스 사용자 데이터 정책 준수</h2>
+  <p>이 앱의 Google API 에서 받은 정보의 사용과 다른 앱으로의 전송은 제한적 사용(Limited Use) 요건을 포함한 <a href="https://developers.google.com/terms/api-services-user-data-policy" rel="noopener">Google API 서비스 사용자 데이터 정책</a>을 준수합니다.</p>
+
+  <h2>8. 문의</h2>
+  <p>이 방침에 대한 문의는 Google 동의 화면에 표시된 지원 이메일로 보내 주십시오.</p>
+
+  <footer><a href="index.html">홈으로</a> · 최종 수정 2026-10-18</footer>
+</body>
+</html>
